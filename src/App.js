@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 import Home from "./pages/home";
 import Contact from "./pages/contact";
+import Listing from "./pages/listing";
 
 function App() {
   return (
@@ -34,6 +35,8 @@ function App() {
       </nav>
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/expert" element={<Listing />} />
+
         <Route path="/contact" element={<Contact />} />
       </Routes>
     </Router>
