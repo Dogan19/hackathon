@@ -1,20 +1,11 @@
-import '../assets/styles/listing.css'; // Assurez-vous que le chemin du fichier est correct
-import image1 from '../assets/images/art_decoratif.png';
-import image2 from '../assets/images/art_tribal.png';
-import image3 from '../assets/images/verrerie.png';
-import image4 from '../assets/images/ceramique.png';
-import image5 from '../assets/images/monnaies.png';
-import image7 from '../assets/images/peinture.png';
-import image6 from '../assets/images/sculpture.png';
-
-import image8 from '../assets/images/img1.png';
-import image9 from '../assets/images/img2.png';
-import image10 from '../assets/images/img3.png';
-import image11 from '../assets/images/personne1.png';
-import image12 from '../assets/images/personne2.png';
-import image13 from '../assets/images/personne3.png';
-import Contact from "../pages/contact";
-
+import React from "react";
+import Sculpture from "../assets/img_exp/sculpture.png";
+import Peinture from "../assets/img_exp/peinture.png";
+import Monnaies from "../assets/img_exp/monnaies.png";
+import Art from "../assets/img_exp/art_tribal.png";
+import ArtDeco from "../assets/img_exp/art_decoratif.png";
+import Ceramique from "../assets/img_exp/ceramique.png";
+import Verrerie from "../assets/img_exp/verrerie.png";
 
 const Listing = () => {
 
@@ -67,17 +58,15 @@ const Listing = () => {
                 Filtrer par domaine
             </p>
     
-            <div className="flex justify-evenly items-center m-2 p-2 bg-gray-500 mx-auto"
-            style={{backgroundColor:'#00445F' , color:"white"}}
-            >
-                <a href="" target="_blank" >
-                    <img src={image1} alt="Aidez moi" className='h-20 w-20'/>
-                        Art Déco      
+            <div className="flex justify-evenly items-center m-5 p-5 bg-gray-500 mx-auto">
+                <a href="" target="_blank">
+                    <img src={Sculpture} alt="Sculpture" />
+                        Sculpture        
                     </a>
         
                 <a href="" target="_blank">
-                    <img src={image2} alt="Domaine" className='h-20 w-20'/>
-                        Art tribal
+                    <img src={Peinture} alt="Peinture" />
+                        Peinture
                 </a>
         
                 <a href="" target="_blank">
