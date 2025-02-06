@@ -1,0 +1,124 @@
+/* Contact.css */
+
+/* Déclaration des couleurs personnalisées */
+:root {
+    --dark-blue: rgba(0, 68, 95, 0.25); /* Bleu avec 25% d'opacité pour le fond */
+    --solid-blue: #00445F; /* Bleu sans opacité pour le texte */
+    --golden: #EBC785;
+    --hover-blue: #003344;
+    --background-gray: #f9f9f9;
+}
+
+/* Conteneur principal de la page */
+.contact-container {
+    padding: 20px;
+    width: 100%; /* Assurez-vous que le conteneur prend toute la largeur de l'écran */
+    box-sizing: border-box;
+    overflow-x: hidden; /* Empêche le défilement horizontal */
+}
+
+/* Formulaire */
+.contact-form {
+    max-width: 100%; /* Le formulaire ne doit pas dépasser la largeur de l'écran */
+    width: 100%; /* Assurez-vous que le formulaire occupe toute la largeur disponible */
+    margin: 0 auto; /* Centrer le formulaire */
+    
+    border-radius: 8px;
+    padding: 20px;
+}
+
+/* Input et textarea */
+.contact-form input,
+.contact-form textarea {
+    padding: 8px 10px;
+    margin: 3px 0;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    background-color: var(--dark-blue); /* Fond bleu avec 25% d'opacité */
+    color: var(--solid-blue);
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Placeholder */
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+    color: var(--solid-blue);
+}
+
+/* Focus input & textarea */
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: none;
+    border-color: var(--golden);
+    box-shadow: 0 0 0 2px var(--golden);
+}
+
+/* Checkbox et radio */
+.contact-form input[type="radio"] {
+    margin-right: 8px;
+    background-color: var(--dark-blue);
+    color: var(--golden);
+    
+    width: 20px;
+    height: 20px;
+    appearance: none;
+    transition: all 0.3s ease;
+}
+
+.contact-form input[type="radio"]:checked {
+    background-color: var(--golden);
+    transform: scale(1.2);
+}
+
+/* Espacement entre les éléments */
+.contact-form div {
+    margin-bottom: 8px;
+}
+
+/* Bouton envoyer */
+.contact-form button {
+    background-color: var(--golden);
+    color: var(--solid-blue);
+    padding: 10px 18px;
+    border: solid var(--solid-blue);
+    
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+}
+
+.contact-form button:hover {
+    background-color: #d4a762;
+    color: #fff;
+}
+
+/* Media Query pour les grands écrans */
+@media (min-width: 1024px) { /* Applique les styles à partir de 1024px de largeur */
+    /* Modifier la largeur du texte à gauche */
+    .contact-container {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .contact-form {
+        max-width: 90%; /* Le formulaire occupe 90% de la largeur de l'écran */
+    }
+
+    /* Augmenter la taille du texte uniquement sur grand écran */
+    .contact-container h1 {
+        font-size: 2.5rem; /* Augmenter la taille du titre */
+    }
+
+    .contact-container p {
+        font-size: 1.25rem; /* Augmenter la taille du texte descriptif */
+    }
+}
+
+
+
+  
+  
+  
+  
+  
