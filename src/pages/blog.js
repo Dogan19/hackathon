@@ -15,7 +15,7 @@ const BlogPage = () => {
 
     { id: 2, title: 'Masques africains : vraie antiquité ou simple déco ? Nos conseils pour ne pas se faire avoir', excerpt: 'Guide pour distinguer les pièces authentiques des reproductions', date: '25 Décembre 2024', category: 'Authentification & estimation', image: masque },
 
-    { id: 3, title: 'Ne manquez pas la grande exposition sur Tutankhamun au palais 12 à Bruxelles', excerpt: 'Une exposition incontournable en Belgique', date: '10 Novembre 2024', category: 'Événements & expositions', image: egypte },
+    { id: 3, title: 'Ne manquez pas la grande exposition sur Tutankhamun au palais 12 à Bruxelles', excerpt: 'Une exposition incontournable à Bruxelles en Belgique', date: '10 Novembre 2024', category: 'Événements & expositions', image: egypte },
 
     { id: 4, title: 'Les 5 erreurs à éviter quand on débute en brocante', excerpt: 'Les pièges courants et comment bien préparer ses achats', date: '8 Février 2025', category: 'Chiner et négocier', image: 'https://source.unsplash.com/800x600/?temple,thailand' },
 

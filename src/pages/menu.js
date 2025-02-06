@@ -2,8 +2,10 @@ import { Link } from "react-router-dom";
 import { useState } from "react";
 import "../assets/styles/home.css";
 import LogoSVG from "../assets/img/logo.svg";
+import { useNavigate } from "react-router-dom";
 
 const Menu = () => {
+  const navigate = useNavigate();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -29,7 +31,7 @@ const Menu = () => {
       ></link>
       <nav className="flex nav-bar justify-between md:px-8 md:pt-4 md:pb-4 border-b menuSection">
         <div className="flex items-center">
-          <img src={LogoSVG} alt="Logo" className="w-20 shadow-lg" />
+          <img src={LogoSVG} alt="Logo" onClick ={() => navigate(`/`)} className="w-20 shadow-lg" />
         </div>
         <div className="flex items-center md:hidden">
           <button onClick={toggleMenu} className="text-black p-4">

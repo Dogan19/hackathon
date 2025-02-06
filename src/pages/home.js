@@ -16,7 +16,7 @@ const Home = () => {
       <div className="flex justify-between blocPresentation">
         <div className="md:mt-16 md:ml-16 introBloc">
           <h1 className="text-4xl mb-2 font-bold" style={{ color: "#00445f" }}>
-            Trouvez, vendez, évaluez
+            Chinez, vendez, évaluez
           </h1>
           <p className="text-xl" style={{ color: "#00445f" }}>
             L'art à portée de main,
