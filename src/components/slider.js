@@ -1,7 +1,10 @@
+import "../assets/styles/home.css"
+
+
 const Slider = () => {
 
     return(
-        <div className="w-75">
+        <div className="w-75 slider">
             <div id="default-carousel" className="relative rounded-lg overflow-hidden shadow-lg" data-carousel="static">
                 {/* Carousel wrapper */}
                 <div className="relative h-80 md:h-96" data-carousel-inner>
