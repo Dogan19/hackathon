@@ -101,7 +101,7 @@ const BlogPage = () => {
           <button onClick={() => changePage(currentPage + 1)} disabled={currentPage === totalPages}>Suivant</button>
         </div>
       </div>
-      <Footer />
+     
     </div>
   );
 };
