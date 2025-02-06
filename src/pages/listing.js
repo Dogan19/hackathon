@@ -1,4 +1,11 @@
-
+import React from "react";
+import Sculpture from "../assets/img_exp/sculpture.png";
+import Peinture from "../assets/img_exp/peinture.png";
+import Monnaies from "../assets/img_exp/monnaies.png";
+import Art from "../assets/img_exp/art_tribal.png";
+import ArtDeco from "../assets/img_exp/art_decoratif.png";
+import Ceramique from "../assets/img_exp/ceramique.png";
+import Verrerie from "../assets/img_exp/verrerie.png";
 
 const Listing = () => {
 
@@ -46,13 +53,13 @@ const Listing = () => {
     
             <div className="flex justify-evenly items-center m-5 p-5 bg-gray-500 mx-auto">
                 <a href="" target="_blank">
-                    <img src="" alt="Aidez moi" />
-                        Aidez moi         
+                    <img src={Sculpture} alt="Sculpture" />
+                        Sculpture        
                     </a>
         
                 <a href="" target="_blank">
-                    <img src="" alt="Domaine" />
-                        Domaine
+                    <img src={Peinture} alt="Peinture" />
+                        Peinture
                 </a>
         
                 <a href="" target="_blank">
