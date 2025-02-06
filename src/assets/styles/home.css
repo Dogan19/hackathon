@@ -1,0 +1,159 @@
+:root{
+    font-family: "DM Sans", serif;
+
+}
+
+.menuSection {
+  background-color: #ebc785;
+  color: #00445f;
+  font-family: "DM Sans", serif;
+  font-weight: 600;
+  @media (max-width: 767px) {
+    height: 10vh;
+    padding-left: 1.5rem;
+  }
+}
+
+.ulBurger {
+  @media (max-width: 767px) {
+    width: 100vw;
+    justify-content: center !important;
+  }
+}
+
+.titleEvent{
+    background-color:#ebc785;
+    color: #00445f;
+}
+
+.textCard{
+    background-color: #00445f ;
+    color: white;
+}
+
+.cardSection{
+    background-color: #00445f ;
+
+}
+
+.btnEvent{
+    background-color: white;
+    color: #00445f;
+    border: 2px solid #00445f;
+    margin-bottom: 1rem;
+}
+
+.menuBurger {
+  @media (max-width: 767px) {
+    background-color: #ebc785;
+  }
+}
+
+.heroSection {
+  @media (max-width: 767px) {
+    width: 100%;
+  }
+}
+
+.sloganSection {
+  @media (max-width: 767px) {
+    margin-top: 4vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100% !important;
+  }
+}
+
+.listMenu {
+}
+
+.item {
+  width: 400px;
+  height: 350px;
+  @media (max-width: 767px) {
+    width: 100%;
+  }
+}
+
+.aVenir {
+  @media (max-width: 767px) {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    max-width: 100vw;
+  }
+}
+
+.slider {
+  @media (max-width: 767px) {
+    padding: 0;
+    width: 100vw;
+  }
+}
+
+.eventsCard {
+  @media (max-width: 767px) {
+    flex-direction: column;
+    margin-top: 20px;
+  }
+}
+.subHeroSection {
+  @media (max-width: 767px) {
+    padding: 0;
+  }
+}
+.heroSection {
+  @media (max-width: 767px) {
+    padding: 0;
+    flex-direction: column;
+  }
+}
+
+
+.pNewsLetter{
+    color: #00445f;
+}
+
+.btnNewsLetter{
+    @media (max-width: 767px) {
+        height: 10vh !important;
+    }
+
+
+}
+
+.blocPresentation{
+  @media (max-width: 767px) {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.imgTresor{
+  @media (max-width: 767px) {
+    display: none;
+  }
+}
+
+.blocBlog{
+  @media (max-width: 767px) {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.blocBlog2{
+  @media (max-width: 767px) {
+    margin-top: 2rem;
+  }
+
+}
+
+.introBloc { @media (max-width: 767px) {
+  margin-top: 2rem;
+  margin-left:1rem
+}
+
+}
